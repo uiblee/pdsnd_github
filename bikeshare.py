@@ -46,7 +46,7 @@ def get_filters():
             day = input ("Which day of the week would you like to look at data for?")
             break
         except (ValueError, KeyboardInterrpt, TypeError):
-            print("Please enter either all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday.")
+            print("Please enter either Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or ALL.")
         finally:
             filters['day_name'] = day
             print("Looking at data for {}".format(day))
