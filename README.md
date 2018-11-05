@@ -1,4 +1,4 @@
-### November 2, 2018
+### November 2, 2018 and November 5, 2018
 
 ### Bikeshare project
 
